@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="particles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="navbar">
+    <ul class="all-content">
+      <li><a class="list" href="phone.html">HOME</a></li>
+      <li><a class="list" href="biodata.html">BIODATA</a></li>
+    </ul>
+  </div>
+
+
+
+  <div id="page1">
+    <div id="particles-js"></div>
+  </div>
+    <div class="page">
+        <div class="child1"><img class="picture-1" src="C:\Users\user\Downloads\_OM43536__1_-removebg.png" alt=""></div>
+        <div class="child2">
+          <div class="child-3">
+            <h1 class="quote">Every star has a path</h1>
+            <h1 class="name">FIND YOURS</h1>
+            <h1 class="font-extralight">Hello I am Keane</h1>
+            <p class="font-extralight-1" >
+            An Aspiring <span class="auto-type"></span><BR>
+            </p>   
+            <a href="https://docs.google.com/document/d/1sQmYPiG5j624gfTpSrnNOdnG3s5t9_Jt/edit">
+              <button class="actual-button-1">Download CV</button></a>            
+            <div class="social-medias">
+              <a href="https://www.facebook.com/walking.dead699"><img class="project-logos-1" src="pictures/fb.png" alt=""></a>
+              <a href="https://github.com/K1yanxiety"><img class="project-logos-1" src="pictures/githab.png" alt=""></a>
+              <a href="https://www.linkedin.com/in/keane-jon-ambil-876886334/"><img class="project-logos-1" src="pictures/in.png" alt=""></a> 
+              <a href="https://www.instagram.com/kiii._.yan/"><img class="project-logos-1" src="pictures/ig.png" alt=""></a> 
+            </div>
+          
+          </div>
+        
+        </div>
+    
+    </div>
+
+   
+
+ <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+ <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      
+ <!-- stats.js lib -->
+ <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+
+ <script src="script.js"></script>
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script>
+  
+   var typed = new Typed(".auto-type",{
+    strings : ["Programmer", "Video Editor", "Photographer"],
+    typeSpeed : 100,
+    backSpeed : 100,
+    looped : true
+  })
+ </script>
+    <script>
+      window.addEventListener('scroll', function() {
+    var navbar = document.querySelector('.navbar');
+    if (window.scrollY > 0) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');   
+
+    }
+});
+    </script>
+   
+</body>
+</html>
