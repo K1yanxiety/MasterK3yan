@@ -132,6 +132,12 @@ span{
 .project-logos-1{
     max-width: 2.5rem;
     cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.project-logos-1:hover{
+    transform: scale(1.1) ; 
+    filter: brightness(1.2) contrast(1.1);
 }
 
 .view-project-button{
