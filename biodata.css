@@ -195,6 +195,7 @@ body {
     .container {
         margin: 6rem auto;
         max-width: 85%;
+        padding-top: 5rem !important;
     }
 
     .left-section {
@@ -247,6 +248,10 @@ body {
         height: 2rem;
     }
 
+    .child-1{
+        padding-top: 5rem;
+    }
+
     .navbar ul {
         justify-content: center;
         gap: 8px;
@@ -261,6 +266,7 @@ body {
         flex-wrap: wrap;
         margin: 5rem auto;
         padding: 1rem;
+        padding-top: 5rem !important;
         max-width: 100%;
         gap: 10px; 
         border: 2px solid #263bb6; 
