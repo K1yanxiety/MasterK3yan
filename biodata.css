@@ -233,6 +233,10 @@ body {
     .section{
         margin: 1rem;
     }
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* breakpoint media query*/
@@ -308,14 +312,13 @@ body {
     }
 
     .skills {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
-        gap: 5px;
+        display: flex;
+        flex-direction: column;
     }
 
     .skill-item {
-        font-size: 10px;
-        padding: 3px 6px;
+        font-size: 13px;
+        padding: 3px ;
     }
 
     .progress-bar {
@@ -416,10 +419,14 @@ body {
     }
 
     .skill-item {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .progress-bar {
         height: 8px;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
     }
 }
