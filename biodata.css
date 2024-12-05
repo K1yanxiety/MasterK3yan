@@ -136,12 +136,11 @@ body {
 }
 .skills {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 10px;
 }
 .skill-item {
-    background-color: #263bb6;
-    color: #fff;
+    background-color:  #f1f5f9;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 14px;
